@@ -113,15 +113,25 @@ li:hover{
   position: absolute;
 	right: 0;
 }
-
-/* Animations Below - Replace ease-out with infinite for infinite loop*/
+.fas {
+  color: crimson;
+  font-size: 20px;
+}
+.fab {
+  color: crimson;
+  font-size: 20px;
+}
+.fa {
+  color: crimson;
+  font-size: 20px;
+}
 /*Edit here for html*/  
 .bar-fill-html {
 	width: 90%;
   background-color: #e44d26;
-	animation: bar-fill-html 2s ease-out;
-	-moz-animation: bar-fill-html 2s ease-out;
-  -webkit-animation: bar-fill-html 2s ease-out;
+	animation: bar-fill-html 6s infinite;
+	-moz-animation: bar-fill-html 6s infinite;
+  -webkit-animation: bar-fill-html 6s infinite;
 }
 @keyframes bar-fill-html {
     0% {
@@ -154,9 +164,9 @@ li:hover{
 .bar-fill-css {
 	width: 90%;
   background-color: #f8dc3d;
-  animation: bar-fill-css 2s ease-out;
-	-moz-animation: bar-fill-css 2s ease-out;
-  -webkit-animation: bar-fill-css 2s ease-out;
+  animation: bar-fill-css 6s infinite;
+	-moz-animation: bar-fill-css 6s infinite;
+  -webkit-animation: bar-fill-css 6s infinite;
 }
 @keyframes bar-fill-css {
     0% {
@@ -189,9 +199,9 @@ li:hover{
 .bar-fill-python{
 	width: 85%;
   background-color: #06dee1;
-  animation: bar-fill-python 2s ease-out;
-	-moz-animation: bar-fill-python 2s ease-out;
-  -webkit-animation: bar-fill-python 2s ease-out;
+  animation: bar-fill-python 6s infinite;
+	-moz-animation: bar-fill-python 6s infinite;
+  -webkit-animation: bar-fill-python 6s infinite;
 }
 @keyframes bar-fill-python {
     0% {
@@ -224,9 +234,9 @@ li:hover{
 .bar-fill-pene{
 	width: 70%;
   background-color: #429f46;
-  animation: bar-fill-pene 2s ease-out;
-	-moz-animation: bar-fill-pene 2s ease-out;
-  -webkit-animation: bar-fill-pene 2s ease-out;
+  animation: bar-fill-pene 6s infinite;
+	-moz-animation: bar-fill-pene 6s infinite;
+  -webkit-animation: bar-fill-pene 6s infinite;
 }
 @keyframes bar-fill-pene {
     0% {
@@ -259,9 +269,9 @@ li:hover{
 .bar-fill-net{
 	width: 55%;
   background-color: #0a73dc;
-  animation: bar-fill-net 2s ease-out;
-	-moz-animation: bar-fill-net 2s ease-out;
-  -webkit-animation: bar-fill-net 2s ease-out;
+  animation: bar-fill-net 6s infinite;
+	-moz-animation: bar-fill-net 6s infinite;
+  -webkit-animation: bar-fill-net 6s infinite;
 }
 @keyframes bar-fill-net {
     0% {
@@ -294,9 +304,9 @@ li:hover{
 .bar-fill-cry{
 	width: 75%;
   background-color: #ff00ff;
-  animation: bar-fill-cry 2s ease-out;
-	-moz-animation: bar-fill-cry 2s ease-out;
-  -webkit-animation: bar-fill-cry 2s ease-out;
+  animation: bar-fill-cry 6s infinite;
+	-moz-animation: bar-fill-cry 6s infinite;
+  -webkit-animation: bar-fill-cry 6s infinite;
 }
 @keyframes bar-fill-cry {
     0% {
@@ -329,9 +339,9 @@ li:hover{
 .bar-fill-os{
 	width: 70%;
   background-color: #ff0000;
-  animation: bar-fill-os 2s ease-out;
-	-moz-animation: bar-fill-os 2s ease-out;
-  -webkit-animation: bar-fill-os 2s ease-out;
+  animation: bar-fill-os 6s infinite;
+	-moz-animation: bar-fill-os 6s infinite;
+  -webkit-animation: bar-fill-os 6s infinite;
 }
 @keyframes bar-fill-os {
     0% {
@@ -364,9 +374,9 @@ li:hover{
 .bar-fill-linux{
 	width: 85%;
   background-color: #66ff66;
-  animation: bar-fill-linux 2s ease-out;
-	-moz-animation: bar-fill-linux 2s ease-out;
-  -webkit-animation: bar-fill-linux 2s ease-out;
+  animation: bar-fill-linux 6s infinite;
+	-moz-animation: bar-fill-linux 6s infinite;
+  -webkit-animation: bar-fill-linux 6s infinite;
 }
 @keyframes bar-fill-linux {
     0% {
@@ -399,9 +409,9 @@ li:hover{
 .bar-fill-tools{
 	width: 75%;
   background-color: #ff0000;
-  animation: bar-fill-tools 2s ease-out;
-	-moz-animation: bar-fill-tools 2s ease-out;
-  -webkit-animation: bar-fill-tools 2s ease-out;
+  animation: bar-fill-tools 6s infinite;
+	-moz-animation: bar-fill-tools 6s infinite;
+  -webkit-animation: bar-fill-tools 6s infinite;
 }
 @keyframes bar-fill-tools {
     0% {
@@ -434,9 +444,9 @@ li:hover{
 .bar-fill-hard{
 	width: 60%;
   background-color: #6600cc;
-  animation: bar-fill-os 2s ease-out;
-	-moz-animation: bar-fill-hard 2s ease-out;
-  -webkit-animation: bar-fill-hard 2s ease-out;
+  animation: bar-fill-os 6s infinite;
+	-moz-animation: bar-fill-hard 6s infinite;
+  -webkit-animation: bar-fill-hard 6s infinite;
 }
 @keyframes bar-fill-hard {
     0% {
